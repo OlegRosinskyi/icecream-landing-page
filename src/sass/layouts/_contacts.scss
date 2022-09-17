@@ -1,0 +1,146 @@
+.contacts {
+    flex-grow: 1;
+    width: 100%;
+    background-color: var(--main-background-color);
+    padding-bottom: 39px;
+
+}
+
+.contacts__container {
+    position: relative;
+    max-width: 480px;
+    margin: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 32px;
+    
+    @include tablet{
+        flex-direction: row;
+        gap: 16px;
+    }
+    @include desktop{
+        gap: 32px;
+    }
+}
+
+.address-list__item {
+    box-sizing: border-box;
+        width: 280px;
+    background: var(--main-text-color);
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    padding: 40px 32px;
+
+            @include tablet {
+                width: 224px;
+                padding: 40px 24px;
+            }
+        
+            @include desktop {
+                width: 368px;
+                padding: 40px 40px;
+            }
+}
+
+
+.address_list__food-store {
+    background-color: var(--hover-text-color);
+    display: inline-block;
+    border-radius: 4px;
+    padding: 0 23px;
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.86;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+}
+
+.phis-address {
+    color: var(--primary-text-color);
+    margin-bottom: 8px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+
+.phis-address__link {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.83;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+
+    color: #D6936D;
+}
+
+.phis-address__link:hover,
+.phis-address__link:focus {
+    text-decoration: underline;
+}
+
+.phis-address__link::after {
+    display: block;
+    content: '';
+    height: 1px;
+    background-color: #E1E1E1;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.workingTime-list__item:first-child {
+    margin-bottom: 8px;
+}
+
+.workingTime-list__days,
+.workingTime-list__hours {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.86;
+}
+
+.workingTime-list__hours {
+    color: #ABABAB;
+}
+
+.workingTime-list::after {
+    display: block;
+    content: '';
+    height: 1px;
+    background-color: #E1E1E1;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.contacts-list__link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.contacts-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
