@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,51 +11,50 @@
     <!-- ❗️❗️❗️ Add partials like so for every page -->
     <include src="./partials/hero-header.html"></include>
 
-    <section>
-      <header>
-        <div class="container">
-          <div class="mobile-header">
-            <a class="logo-header" href="index.html"
-              ><picture>
-                <source
-                  srcset="
-                    ../src/images/desktop/logo-header.png    1x,
-                    ../src/images/desktop/logo-header@2x.png 2x
-                  "
-                />
-                <img
-                  class="logo-header-img"
-                  src="../src/images/desktop/logo-header.png"
-                  alt="logo"
-                /> </picture
-            ></a>
-            <svg width="32">
-              <use href="../src/images/menu.svg"></use>
-            </svg>
-            <svg width="32">
-              <use href="../src/images/close.svg"></use>
-            </svg>
-          </div>
-          <nav class="header-nav">
-            <ul class="header-nav__list">
-              <li class="header-nav__item">
-                <a class="header-nav__link" href="">Home</a>
-              </li>
-              <li class="header-nav__item">
-                <a class="header-nav__link" href="">How it’s made?</a>
-              </li>
-              <li class="header-nav__item">
-                <a class="header-nav__link" href="">Our products</a>
-              </li>
-              <li class="header-nav__item">
-                <a class="header-nav__link" href="">Contact</a>
-              </li>
-            </ul>
-          </nav>
-          <button type="button" class="header-button">Buy now</button>
+    <header>
+      <div class="container">
+        <div class="mobile-header">
+          <a class="logo-header" href="index.html"
+            ><picture>
+              <source
+                srcset="
+                  ../src/images/desktop/logo-header.png   1x,
+                  ../src/images/desktop/logo-header2x.png 2x
+                "
+              />
+              <img
+                class="logo-header-img"
+                src="../src/images/desktop/logo-header.png"
+                alt="logo"
+              /> </picture
+          ></a>
+          <svg width="32">
+            <use href="../src/images/menu.svg"></use>
+          </svg>
+          <svg width="32">
+            <use href="../src/images/close.svg"></use>
+          </svg>
         </div>
-      </header>
-    </section>
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="">Home</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="">How it’s made?</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="">Our products</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="header-button">Buy now</button>
+      </div>
+    </header>
+
     <section class="hero">
       <div class="container">
         <h1>ice cream made with passion</h1>
@@ -68,29 +67,23 @@
           <picture>
             <source
               srcset="
-                ../src/images/desktop/hero-plate.png    1x,
-                ../src/images/desktop/hero-plate@2x.png 2x
+                ../src/images/desktop/hero-plate.png   1x,
+                ../src/images/desktop/hero-plate2x.png 2x
               "
               media="(min-width: 1200px)"
             />
             <source
               srcset="
-                ../src/images/tablet/hero-plate.png    1x,
-                ../src/images/tablet/hero-plate@2x.png 2x
+                ../src/images/tablet/hero-plate.png   1x,
+                ../src/images/tablet/hero-plate2x.png 2x
               "
               media="(min-width: 768px)"
             />
-            <source
-              srcset="
-                ../src/images/mobile/hero-plate.png    1x,
-                ../src/images/mobile/hero-plate@2x.png 2x
-              "
-              media="(max-width: 767px)"
-            />
+
             <img
               class="hero-img-plate"
               src="../src/images/desktop/hero-plate.png"
-              alt="веб-сайт"
+              alt="plate with ice-cream"
             />
           </picture>
           <p>
@@ -107,22 +100,22 @@
         <picture>
           <source
             srcset="
-              ../src/images/desktop/hero-ice-cream.png    1x,
-              ../src/images/desktop/hero-ice-cream@2x.png 2x
+              ../src/images/desktop/hero-ice-cream.png   1x,
+              ../src/images/desktop/hero-ice-cream2x.png 2x
             "
             media="(min-width: 1200px)"
           />
           <source
             srcset="
-              ../src/images/tablet/hero-ice-cream.png    1x,
-              ../src/images/tablet/hero-ice-cream@2x.png 2x
+              ../src/images/tablet/hero-ice-cream.png   1x,
+              ../src/images/tablet/hero-ice-cream2x.png 2x
             "
             media="(min-width: 768px)"
           />
           <source
             srcset="
-              ../src/images/mobile/hero-ice-cream.png    1x,
-              ../src/images/mobile/hero-ice-cream@2x.png 2x
+              ../src/images/mobile/hero-ice-cream.png   1x,
+              ../src/images/mobile/hero-ice-cream2x.png 2x
             "
             media="(max-width: 767px)"
           />
@@ -135,22 +128,22 @@
         <picture>
           <source
             srcset="
-              ../src/images/desktop/hero-dots.png    1x,
-              ../src/images/desktop/hero-dots@2x.png 2x
+              ../src/images/desktop/hero-dots.png   1x,
+              ../src/images/desktop/hero-dots2x.png 2x
             "
             media="(min-width: 1200px)"
           />
           <source
             srcset="
-              ../src/images/tablet/hero-dots.png    1x,
-              ../src/images/tablet/hero-dots@2x.png 2x
+              ../src/images/tablet/hero-dots.png   1x,
+              ../src/images/tablet/hero-dots2x.png 2x
             "
             media="(min-width: 768px)"
           />
           <source
             srcset="
-              ../src/images/mobile/hero-dots.png    1x,
-              ../src/images/mobile/hero-dots@2x.png 2x
+              ../src/images/mobile/hero-dots.png   1x,
+              ../src/images/mobile/hero-dots2x.png 2x
             "
             media="(max-width: 767px)"
           />
