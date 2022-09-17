@@ -10,6 +10,159 @@
   <body>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
     <include src="./partials/hero-header.html"></include>
+
+    <section>
+      <header>
+        <div class="container">
+          <div class="mobile-header">
+            <a class="logo-header" href="index.html"
+              ><picture>
+                <source
+                  srcset="
+                    ../src/images/desktop/logo-header.png    1x,
+                    ../src/images/desktop/logo-header@2x.png 2x
+                  "
+                />
+                <img
+                  class="logo-header-img"
+                  src="../src/images/desktop/logo-header.png"
+                  alt="logo"
+                /> </picture
+            ></a>
+            <svg width="32">
+              <use href="../src/images/menu.svg"></use>
+            </svg>
+            <svg width="32">
+              <use href="../src/images/close.svg"></use>
+            </svg>
+          </div>
+          <nav class="header-nav">
+            <ul class="header-nav__list">
+              <li class="header-nav__item">
+                <a class="header-nav__link" href="">Home</a>
+              </li>
+              <li class="header-nav__item">
+                <a class="header-nav__link" href="">How it’s made?</a>
+              </li>
+              <li class="header-nav__item">
+                <a class="header-nav__link" href="">Our products</a>
+              </li>
+              <li class="header-nav__item">
+                <a class="header-nav__link" href="">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <button type="button" class="header-button">Buy now</button>
+        </div>
+      </header>
+    </section>
+    <section class="hero">
+      <div class="container">
+        <h1>ice cream made with passion</h1>
+        <button>Products</button>
+        <button>How it’s made?</button>
+        <p>16 cafes</p>
+        <p>23 food trucks</p>
+
+        <div class="hero-info">
+          <picture>
+            <source
+              srcset="
+                ../src/images/desktop/hero-plate.png    1x,
+                ../src/images/desktop/hero-plate@2x.png 2x
+              "
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="
+                ../src/images/tablet/hero-plate.png    1x,
+                ../src/images/tablet/hero-plate@2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ../src/images/mobile/hero-plate.png    1x,
+                ../src/images/mobile/hero-plate@2x.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              class="hero-img-plate"
+              src="../src/images/desktop/hero-plate.png"
+              alt="веб-сайт"
+            />
+          </picture>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et
+          </p>
+          <button>
+            <svg>
+              <use></use>
+            </svg>
+          </button>
+        </div>
+
+        <picture>
+          <source
+            srcset="
+              ../src/images/desktop/hero-ice-cream.png    1x,
+              ../src/images/desktop/hero-ice-cream@2x.png 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../src/images/tablet/hero-ice-cream.png    1x,
+              ../src/images/tablet/hero-ice-cream@2x.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../src/images/mobile/hero-ice-cream.png    1x,
+              ../src/images/mobile/hero-ice-cream@2x.png 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            class="hero-img-ice-cream"
+            src="../src/images/desktop/hero-ice-cream.png"
+            alt="ice-cream"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="
+              ../src/images/desktop/hero-dots.png    1x,
+              ../src/images/desktop/hero-dots@2x.png 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ../src/images/tablet/hero-dots.png    1x,
+              ../src/images/tablet/hero-dots@2x.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../src/images/mobile/hero-dots.png    1x,
+              ../src/images/mobile/hero-dots@2x.png 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            class="hero-img-dots"
+            src="../src/images/desktop/hero-dots.png"
+            alt="dots"
+          />
+        </picture>
+      </div>
+    </section>
+
     <include src="./partials/products.html"></include>
     <include src="./partials/about.html"></include>
     <include src="./partials/advantages.html"></include>
