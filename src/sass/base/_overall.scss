@@ -1,6 +1,7 @@
 body {
   color: var(--main-text-color);
   background-color: var(--main-background-color);
+  font-family: Montserrat, sans-serif;
 }
 
 .list {
@@ -9,4 +10,12 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
 }
