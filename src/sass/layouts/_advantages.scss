@@ -1,0 +1,58 @@
+.advantage{
+
+    &-titl{
+        display: block;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        padding-top: 21px;
+         padding-bottom: 21px;  
+      @include tablet {
+    font-family: 'Montserrat';
+    
+    font-size: 48px;
+    line-height: 1.23;
+    padding-top: 28px;
+         padding-bottom: 28px;
+        }
+    
+        @include desktop
+         {
+    
+    font-size: 58px;
+    line-height: 1.23;
+    padding-top: 34px;
+         padding-bottom: 34px;
+        }
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    
+    }
+     &-text{
+    
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.7;
+    
+    
+    @include tablet {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.74;
+    }
+    
+    @include desktop
+         {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.76;
+    letter-spacing: 0.02em;
+         }
+    text-align: center;
+    color: var(--main-text-color);
+     }
+    }
