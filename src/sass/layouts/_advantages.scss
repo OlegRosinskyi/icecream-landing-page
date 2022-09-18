@@ -2,7 +2,7 @@
 padding-bottom: 86px;
     &-titl{
         
-        font-family: 'Roboto';
+        font-family: "Roboto";
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17px;
@@ -12,7 +12,7 @@ padding-bottom: 86px;
         padding-top: 21px;
          padding-bottom: 21px;  
       @include tablet {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     
     font-size: 48px;
     line-height: 1.23;
@@ -28,7 +28,7 @@ padding-bottom: 86px;
     padding-top: 34px;
          padding-bottom: 34px;
         }
-    text-transform: uppercase;
+    
     color: var(--main-text-color);
     
     }
