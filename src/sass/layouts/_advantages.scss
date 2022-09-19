@@ -15,6 +15,7 @@
 
   &-item::before{
      content:' ';
+     display: block;
      background-image: url(../images/advantage/Frame-min.png);
      background-repeat:no-repeat;
      background-position: 50% 50%;
@@ -23,6 +24,7 @@
      }
   &-item:first-child::before{
      content:' ';
+     display: block;
      background-image: url(../images/advantage/cow-min.png);
      background-position: 50% 50%;
      background-size: 50px 50px;
@@ -31,6 +33,7 @@
   
   &-item:last-child::before{
      content:' ';
+     display: block;
      background-image: url(../images/advantage/ice-min.png);
      background-position: 50% 50%;
      background-size: 50px 50px;
