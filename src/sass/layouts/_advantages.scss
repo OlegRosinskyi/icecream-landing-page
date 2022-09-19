@@ -11,14 +11,14 @@ padding-bottom: 86px;
         text-transform: uppercase;
         padding-top: 21px;
          padding-bottom: 21px;  
-      @include tablet {
+     /* @include tablet {
     font-family: "Montserrat";
     
     font-size: 48px;
     line-height: 1.23;
     padding-top: 28px;
          padding-bottom: 28px;
-        }
+        }*/
     
         @include desktop
          {
