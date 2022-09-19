@@ -23,20 +23,20 @@
 
 
   &-item::before{
-     content:'';
+     content:' ';
        
      background-image: url(../images/advantage/Frame-min.png);
      background-size: contain;
      }
   &-item:first-child::before{
-     content:'';
+     content:' ';
     
      background-image: url(../images/advantage/cow-min.png);
      background-size: contain;
      }
   
   &-item:last-child::before{
-     content:'';
+     content:' ';
           
      background-image: url(../images/advantage/ice-min.png);
      background-size: contain;
