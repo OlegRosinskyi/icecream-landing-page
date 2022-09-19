@@ -12,21 +12,21 @@
      padding-bottom: 180px;
      }
 
-  &-item::after{
-     content:'background-image: url(../images/advantage/Frame-min.png); background-repeat:no-repeat;';
+  &-item::before{
+     content:'background-image: url(../images/advantage/Frame-min.png)';
      /*background-image: url(../images/advantage/Frame-min.png);*/
      background-repeat:no-repeat;
      z-index: 1;
 
      }
-  &-item:first-child::after{
-     content:'background-image: url(../images/advantage/cow-min.png);';
+  &-item:first-child::before{
+     content:'background-image: url(../images/advantage/cow-min.png)';
      /*background-image: url(../images/advantage/cow-min.png);*/
      
      }
   
-  &-item:last-child::after{
-     content:'background-image: url(../images/advantage/ice-min.png);';
+  &-item:last-child::before{
+     content:'background-image: url(../images/advantage/ice-min.png)';
      background-image: url(../images/advantage/ice-min.png);
      width: 50px;
      height: 50px;
