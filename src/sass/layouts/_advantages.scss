@@ -16,7 +16,7 @@
           position: relative;
      }
   &-item::before{
-     content:' 1';
+     content:'                      ';
      position: absolute;
      display: block;
      background-image: url(../images/advantage/Frame-min.png);
@@ -26,7 +26,7 @@
      display: block;
      }
   &-item:first-child::before{
-     content:' 1';
+     content:'                     1';
      position: absolute;
      display: block;
      background-image: url(../images/advantage/cow-min.png);
@@ -36,7 +36,7 @@
      }
   
   &-item:last-child::before{
-     content:' 1';
+     content:'                       1';
      position: absolute;
      display: block;
      background-image: url(../images/advantage/ice-min.png);
