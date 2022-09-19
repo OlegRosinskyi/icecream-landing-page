@@ -12,12 +12,13 @@
      padding-bottom: 180px;
      }
 
-  &-item::before{
+  &-item::after{
      content:'background-image: url(../images/advantage/Frame-min.png); background-repeat:no-repeat;';
      background-image: url(../images/advantage/Frame-min.png);
      background-repeat:no-repeat;
+
      }
-  &-item:first-child::before{
+  &-item:first-child::after{
      content:'background-image: url(../images/advantage/cow-min.png);';
      background-image: url(../images/advantage/cow-min.png);
      }
