@@ -1,5 +1,30 @@
 .advantage{
-padding-bottom: 86px;
+
+max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding-bottom: 60px;
+  @include tablet {
+     padding-bottom: 204px;
+   }
+  @include desktop {
+     padding-bottom: 180px;
+  }
+
+  &-item{
+     content:'';
+     background-image: url(../src/images/advantage/Frame-min.png);
+}
+  &-item::before{
+     content:'';
+     background-image: url(../src/images/advantage/cow-min.png);
+}
+  
+  &-item::after{
+     content:'';
+     background-image: url(../src/images/advantage/ice-min.png);
+}
     &-titl{
         
         font-family: "Roboto";
