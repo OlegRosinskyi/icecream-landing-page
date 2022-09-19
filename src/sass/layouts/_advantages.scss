@@ -12,17 +12,21 @@
   @include desktop {
      padding-bottom: 180px;
      }
-     &-list{
-          position: relative;
-     }
-  &-item::before{
-     content:' ';
      
-     display: block;
+     &-item::before,
+     &-item::after {
+       content: "";
+       width: 50px;
+       height: 50px;
+       background-size: contain;
+     }
+
+
+  &-item::before{
+     content:'';
+       
      background-image: url(../images/advantage/Frame-min.png);
-     background-repeat:no-repeat;
-     background-size: contain;
-     display: block;
+     
      }
   &-item:first-child::before{
      content:' ';
@@ -33,8 +37,8 @@
      }
   
   &-item:last-child::before{
-     content:'                       1';
-     position: absolute;
+     content:'';
+     
      display: block;
      background-image: url(../images/advantage/ice-min.png);
      background-size: contain;
