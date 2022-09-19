@@ -17,21 +17,19 @@
      background-image: url(../images/advantage/Frame-min.png);
      background-repeat:no-repeat;
      background-position: 50% -10%;
-
+     background-size: 50px 50px;
      }
   &-item:first-child::before{
      content:' ';
      background-image: url(../images/advantage/cow-min.png);
-     width: 50px;
-     height: 50px;
+     background-size: 50px 50px;
      
      }
   
   &-item:last-child::before{
      content:' ';
      background-image: url(../images/advantage/ice-min.png);
-     width: 50px;
-     height: 50px;
+     background-size: 50px 50px;
      }
 
 
