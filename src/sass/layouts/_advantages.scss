@@ -14,16 +14,16 @@ max-width: 1600px;
 
   &-item{
      content:'';
-     background-image: url(../src/images/advantage/Frame-min.png);
+     background-image: url(../images/advantage/Frame-min.png);
 }
   &-item::before{
      content:'';
-     background-image: url(../src/images/advantage/cow-min.png);
+     background-image: url(../images/advantage/cow-min.png);
 }
   
   &-item::after{
      content:'';
-     background-image: url(../src/images/advantage/ice-min.png);
+     background-image: url(../images/advantage/ice-min.png);
 }
     &-titl{
         
