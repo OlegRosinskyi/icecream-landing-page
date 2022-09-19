@@ -12,9 +12,11 @@
   @include desktop {
      padding-bottom: 180px;
      }
-
+     &-item{
+          position: relative;
+     }
   &-item::before{
-     content:' ';
+     content:' 1';
      position: absolute;
      display: block;
      background-image: url(../images/advantage/Frame-min.png);
@@ -24,7 +26,8 @@
      display: block;
      }
   &-item:first-child::before{
-     content:' ';
+     content:' 1';
+     position: absolute;
      display: block;
      background-image: url(../images/advantage/cow-min.png);
      background-position: 50% 50%;
@@ -33,7 +36,8 @@
      }
   
   &-item:last-child::before{
-     content:' ';
+     content:' 1';
+     position: absolute;
      display: block;
      background-image: url(../images/advantage/ice-min.png);
      background-position: 50% 50%;
