@@ -1,97 +1,94 @@
 .advantage{
-
-max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
+     background-color: var(--main-background-color);
+     max-width: 1600px;
+     margin-left: auto;
+     margin-right: auto;
   
-  padding-bottom: 60px;
+     padding-bottom: 60px;
   @include tablet {
      padding-bottom: 204px;
-   }
+     }
   @include desktop {
      padding-bottom: 180px;
-  }
+     }
 
-  &-item{
-     content:'';
-     background-image: url(../images/advantage/Frame-min.png);
-}
   &-item::before{
      content:'';
+     background-image: url(../images/advantage/Frame-min.png);
+     }
+  &-item:first-child::before{
+     content:'';
      background-image: url(../images/advantage/cow-min.png);
-}
+     }
   
-  &-item::after{
+  &-item:last-child::before{
      content:'';
      background-image: url(../images/advantage/ice-min.png);
-}
-    &-titl{
-        
-        font-family: "Roboto";
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17px;
-        text-align: center;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-        padding-top: 21px;
-         padding-bottom: 21px;  
-     @include tablet {
-    font-family: "Montserrat";
-    
-    font-size: 48px;
-    line-height: 1.23;
-    padding-top: 28px;
-         padding-bottom: 28px;
-        }
-    
-        @include desktop
+     }
+    &-titl
+    {
+     font-family: "Roboto";
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1.17px;
+     text-align: center;
+     letter-spacing: 0.04em;
+     text-transform: uppercase;
+     padding-top: 21px;
+     padding-bottom: 21px;  
+          @include tablet 
+          {
+          font-family: "Montserrat";    
+          font-size: 48px;
+          line-height: 1.23;
+          padding-top: 28px;
+          padding-bottom: 28px;
+          }
+          @include desktop
          {
-    
-    font-size: 58px;
-    line-height: 1.23;
-    padding-top: 34px;
-         padding-bottom: 34px;
-        }
+          font-size: 58px;
+          line-height: 1.23;
+          padding-top: 34px;
+          padding-bottom: 34px;
+         }
     
     color: var(--main-text-color);
     
     }
-    &-item__mr{
 
+    &-item__mr
+    {
      margin-top: 16px;
      margin-bottom: 18px;
     
-      @include tablet {
-     margin-top: 32px;
-     margin-bottom: 16px;
-     }
-     @include desktop {
+          @include tablet 
+          {
+          margin-top: 32px;
+          margin-bottom: 16px;
+          }
+          @include desktop {
           margin-top: 40px;
          /* margin-bottom: 16px;*/
           }
-
     }
      &-text{
     
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 1.7;
-    
-    
-    @include tablet {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.74;
-    }
-    
-    @include desktop
-         {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.76;
-    letter-spacing: 0.02em;
-         }
+     font-weight: 700;
+     font-size: 12px;
+     line-height: 1.7;        
+          @include tablet 
+          {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 1.74;
+          }
+          @include desktop
+          {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 1.76;
+          letter-spacing: 0.02em;
+          }
     text-align: center;
     color: var(--main-text-color);
      }
