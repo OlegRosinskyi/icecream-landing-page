@@ -116,4 +116,8 @@
     text-align: center;
     color: var(--main-text-color);
      }
+
+     &-text:not(:last-child) {
+          margin-bottom: 16px;
+        }
     }
