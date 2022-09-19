@@ -13,17 +13,17 @@
      }
 
   &-item::before{
-     content:'background-image: url(../images/advantage/Frame-min.png);';
+     content:'background-image: url(../images/advantage/Frame-min.png); background-repeat:no-repeat;';
      background-image: url(../images/advantage/Frame-min.png);
-     
+     background-repeat:no-repeat;
      }
   &-item:first-child::before{
-     content:' ';
+     content:'background-image: url(../images/advantage/cow-min.png);';
      background-image: url(../images/advantage/cow-min.png);
      }
   
   &-item:last-child::before{
-     content:' ';
+     content:'background-image: url(../images/advantage/ice-min.png);';
      background-image: url(../images/advantage/ice-min.png);
      }
     &-titl
