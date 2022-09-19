@@ -31,19 +31,18 @@
      display: block;
      }
   &-item:first-child::before{
-     content:' ';
+     content:'';
     
      background-image: url(../images/advantage/cow-min.png);
-     background-size: contain;
+     
      
      }
   
   &-item:last-child::before{
      content:'';
-     
-     display: block;
+       
      background-image: url(../images/advantage/ice-min.png);
-     background-size: contain;
+   
      }
 
 
