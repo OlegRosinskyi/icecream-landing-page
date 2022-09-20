@@ -20,22 +20,35 @@
       flex-wrap: wrap;
       gap: 0px;
       justify-content: center;
-      width: 230px;
+      
          @include tablet{
          display: flex;
          flex-wrap: wrap;
          gap: 80px;
          justify-content: center;
-         width: 152px;
+         
          }
          @include desktop{
          display: flex;
          flex-wrap: wrap;
          gap: 32px;
          justify-content: center;
+         
+         }
+      }
+      &-item
+      {
+         width: 230px;
+         @include tablet{
+         
+         width: 152px;
+         }
+         @include desktop{
+        
          width: 368px;
          }
       }
+
 
      &-item::before
      {
@@ -46,6 +59,7 @@
        
      }
 
+     
      
 
   &-item::before{
