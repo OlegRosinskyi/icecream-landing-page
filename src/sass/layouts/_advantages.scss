@@ -39,14 +39,17 @@
       &-item
       {
          width: 230px;
+         height: auto;
          @include tablet{
          
          width: 152px;
+         height: 253px;
          /*width: calc((100% - 80px) / 3);*/
          }
          @include desktop{
             /*width: calc((100% - 32px) / 3);*/
          width: 368px;
+         height: 223px;
          }
       }
 
