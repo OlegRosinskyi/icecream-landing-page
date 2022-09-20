@@ -41,8 +41,8 @@
          width: 230px;
          @include tablet{
          
-         /*width: 152px;*/
-         width: calc((100% - 80px) / 3);
+         width: 152px;
+         /*width: calc((100% - 80px) / 3);*/
          }
          @include desktop{
             width: calc((100% - 32px) / 3);
@@ -146,8 +146,8 @@
          {
           font-size: 58px;
           line-height: 1.23;
-          padding-top: 34px;
-          padding-bottom: 34px;
+          padding-top: 32px;
+          padding-bottom: 32px;
          }
     
     color: var(--main-text-color);
