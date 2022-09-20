@@ -24,14 +24,14 @@
          @include tablet{
          display: flex;
          flex-wrap: wrap;
-         gap: 80px;
+         gap: 40px;
          justify-content: center;
          
          }
          @include desktop{
          display: flex;
          flex-wrap: wrap;
-         gap: 32px;
+         gap: 16px;
          justify-content: center;
          
          }
