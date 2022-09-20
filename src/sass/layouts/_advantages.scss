@@ -24,23 +24,24 @@
 
      &-list
      {
-      display: flex;
-      flex-wrap: wrap;
-      /*display: block;
-      flex-wrap: nowrap;
-      gap: 0px;*/
       
+      display: block;
+      flex-wrap: nowrap;
+      gap: 0px;
+      width: 230px;
          @include tablet{
          display: flex;
          flex-wrap: wrap;
          gap: 80px;
          justify-content: center;
+         width: 152px;
          }
          @include desktop{
          display: flex;
          flex-wrap: wrap;
          gap: 32px;
          justify-content: center;
+         width: 368px;
          }
       }
 
