@@ -28,15 +28,13 @@
       flex-wrap: nowrap;
       gap: 0px;
       
-         @include tablet 
-         {
+         @include tablet{
          display: flex;
          flex-wrap: wrap;
          gap: 80px;
          justify-content: center;
          }
-         @include desktop 
-         {
+         @include desktop{
          display: flex;
          flex-wrap: wrap;
          gap: 32px;
