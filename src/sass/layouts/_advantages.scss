@@ -13,15 +13,6 @@
      padding-bottom: 180px;
      }
      
-     &-item::before
-     {
-       content: "";
-       width: 50px;
-       height: 50px;
-       background-size: contain;
-       
-     }
-
      &-list
      {
       
@@ -45,6 +36,17 @@
          width: 368px;
          }
       }
+
+     &-item::before
+     {
+       content: "";
+       width: 50px;
+       height: 50px;
+       background-size: contain;
+       
+     }
+
+     
 
   &-item::before{
      content:'';
