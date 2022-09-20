@@ -66,22 +66,24 @@
      background-image: url(../images/advantage/ice-min.png);
    
      }
-     &-list__mr
-     {
-      margin-bottom: 28px;
-      @include tablet
-      {
-         margin-bottom: 0px;
-      }
-      }
+     &-list__mr{
+      margin-bottom: 22px;
+            }
       &-list__mr:first-child
       {
-         margin-bottom: 0px;
+         margin-bottom: 28px;
       }
       &-list__mr:last-child
       {
-         margin-bottom: 22px;
+         margin-bottom: 0px;
       }
+   }
+      &-list__mr{
+       @include tablet
+      {
+       margin-bottom: 0px;
+      }
+   }
     
     /* &-list__mr:not(:last-child) {
       margin-bottom: 16px;
