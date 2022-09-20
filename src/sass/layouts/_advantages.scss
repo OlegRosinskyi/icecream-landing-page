@@ -25,9 +25,10 @@
      &-list
      {
       
-      display: block;
-      flex-wrap: nowrap;
+      display: flex;
+      flex-wrap: wrap;
       gap: 0px;
+      justify-content: center;
       width: 230px;
          @include tablet{
          display: flex;
