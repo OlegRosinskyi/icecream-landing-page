@@ -24,9 +24,11 @@
 
      &-list
      {
-      display: block;
+      display: flex;
+      flex-wrap: wrap;
+      /*display: block;
       flex-wrap: nowrap;
-      gap: 0px;
+      gap: 0px;*/
       
          @include tablet{
          display: flex;
@@ -82,11 +84,9 @@
       {
        margin-bottom: 0px;
       }
-   }
+      }
     
-    /* &-list__mr:not(:last-child) {
-      margin-bottom: 16px;
-    }*/
+    
 
     &-item__mr
     {
