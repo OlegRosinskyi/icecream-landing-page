@@ -42,10 +42,10 @@
          @include tablet{
          
          /*width: 152px;*/
-         width: calc((100% - 80px) / 4);
+         width: calc((100% - 80px) / 3);
          }
          @include desktop{
-            width: calc((100% - 32px) / 4);
+            width: calc((100% - 32px) / 3);
          /*width: 368px;*/
          }
       }
