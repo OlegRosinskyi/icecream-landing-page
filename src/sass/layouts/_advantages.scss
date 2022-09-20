@@ -41,11 +41,12 @@
          width: 230px;
          @include tablet{
          
-         width: 152px;
+         /*width: 152px;*/
+         width: calc((100% - 80px) / 3);
          }
          @include desktop{
-        
-         width: 368px;
+            width: calc((100% - 32px) / 3);
+         /*width: 368px;*/
          }
       }
 
