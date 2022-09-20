@@ -24,14 +24,14 @@
          @include tablet{
          display: flex;
          flex-wrap: wrap;
-         gap: 40px;
+         gap: 80px;
          justify-content: center;
          
          }
          @include desktop{
          display: flex;
          flex-wrap: wrap;
-         gap: 16px;
+         gap: 32px;
          justify-content: center;
          
          }
@@ -42,9 +42,9 @@
          height: auto;
          @include tablet{
          
-         /*width: 152px;*/
+         width: 152px;
          height: 253px;
-         width: calc((100% - 80px) / 3);
+         /*width: calc((100% - 80px) / 3);*/
          }
          @include desktop{
             /*width: calc((100% - 32px) / 3);*/
